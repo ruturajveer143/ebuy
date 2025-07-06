@@ -1,0 +1,184 @@
+✅ Step 1: Create Folder Structure
+
+SwagLabsAutomationFramework/
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       ├── base/           <-- WebDriver setup (BaseClass.java)
+│   │       ├── pages/          <-- Page Object classes (LoginPage.java)
+│   │       ├── utils/          <-- Utilities (ConfigReader, ScreenshotUtil)
+│   └── test/
+│       └── java/
+│           └── tests/          <-- Test classes (LoginTest.java)
+├── src/
+│   └── main/
+│       └── resources/
+│           ├── config.properties
+├── screenshots/                <-- Screenshots saved here
+├── logs/                       <-- Log files stored here
+├── reports/                    <-- Extent reports here
+├── pom.xml                     <-- Dependencies
+└── testng.xml                  <-- TestNG suite
+
+✅ Step 2: Add Dependencies to pom.xml
+<dependencies>
+    <!-- Selenium -->
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.20.0</version>
+    </dependency>
+
+    <!-- TestNG -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.9.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- WebDriverManager -->
+    <dependency>
+        <groupId>io.github.bonigarcia</groupId>
+        <artifactId>webdrivermanager</artifactId>
+        <version>5.8.0</version>
+    </dependency>
+</dependencies>
+
+✅ Step 3.1: Create config.properties in resources/
+browser=chrome
+url=https://www.demo.com/
+username=standard_user
+password=secret_sauce
+
+✅ Step 3.2: Create Folders
+screenshots/ — store failed test screenshots
+logs/ — store log files
+reports/ — for ExtentReports or other test reports
+
+We can write utilities later like:
+ScreenshotUtil.java → saves screenshots in /screenshots/
+Logger.java or use log4j2 for logs in /logs/
+ExtentManager.java → ExtentReports in /reports/
+
+✅ Step 4: ConfigReader.java in utils/
+package utils;
+
+import java.io.InputStream;
+import java.util.Properties;
+
+public class ConfigReader {
+    private static Properties prop = new Properties();
+
+    static {
+        try {
+            InputStream input = ConfigReader.class.getClassLoader().getResourceAsStream("config.properties");
+            prop.load(input);
+        } catch (Exception e) {
+            System.out.println("Failed to load config: " + e.getMessage());
+        }
+    }
+
+    public static String get(String key) {
+        return prop.getProperty(key);
+    }
+}
+
+✅ Step 5: BaseClass.java in base/
+package base;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.ConfigReader;
+import java.time.Duration;
+
+public class BaseClass {
+    public WebDriver driver;
+
+    public void setup() {
+        WebDriverManager.chromedriver().setup();
+        driver = new ChromeDriver();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().window().maximize();
+        driver.get(ConfigReader.get("url"));
+    }
+
+    public void tearDown() {
+        if (driver != null) {
+            driver.quit();
+        }
+    }
+}
+
+✅ Step 6: LoginPage.java in pages/
+
+package pages;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.*;
+
+public class LoginPage {
+    WebDriver driver;
+
+    @FindBy(id = "user-name")
+    WebElement username;
+
+    @FindBy(id = "password")
+    WebElement password;
+
+    @FindBy(id = "login-button")
+    WebElement loginButton;
+
+    public LoginPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    public void login(String user, String pass) {
+        username.sendKeys(user);
+        password.sendKeys(pass);
+        loginButton.click();
+    }
+}
+
+✅ Step 7: LoginTest.java in tests/
+
+package tests;
+
+import base.BaseClass;
+import pages.LoginPage;
+import utils.ConfigReader;
+import org.testng.annotations.*;
+
+public class LoginTest extends BaseClass {
+    LoginPage loginPage;
+
+    @BeforeMethod
+    public void launchApp() {
+        setup();
+        loginPage = new LoginPage(driver);
+    }
+
+    @Test
+    public void validLoginTest() {
+        loginPage.login(ConfigReader.get("username"), ConfigReader.get("password"));
+        // Add assertion if needed (like checking URL or title)
+    }
+
+    @AfterMethod
+    public void closeApp() {
+        tearDown();
+    }
+}
+
+✅ Step 8: testng.xml at root
+
+<suite name="SwagLabs Test Suite">
+    <test name="Login Test">
+        <classes>
+            <class name="tests.LoginTest"/>
+        </classes>
+    </test>
+</suite>
+
