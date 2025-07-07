@@ -20,6 +20,9 @@ public class LoginPage {
 	@FindBy(id="SubmitLogin")
 	WebElement LoginBtn;
 	
+	@FindBy(xpath="//a[@title='View my customer account']")
+	WebElement title;
+	
 	public void sendEmail(String useremail) {
 		email.sendKeys(useremail);
 	}
@@ -30,6 +33,10 @@ public class LoginPage {
 	
 	public void clickLogin() {
 		LoginBtn.click();
+	}
+	
+	public String title() {
+		return title.getText();
 	}
 	
 

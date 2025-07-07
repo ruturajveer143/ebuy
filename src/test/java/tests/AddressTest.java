@@ -1,6 +1,8 @@
 package tests;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
+import org.openqa.selenium.By;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -62,9 +64,14 @@ public class AddressTest extends BaseClass {
 		log.info("Enter the address Name...!");
 		address.clickOnSubmit();
 		log.info("Clicked on Submit Button...!");
-		
+	
 		Thread.sleep(5000);
 		
 	}
+	
+	@AfterMethod
+    public void closeApp() {
+        tearDown();
+    }
 
 }
