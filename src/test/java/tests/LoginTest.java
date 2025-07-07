@@ -14,7 +14,7 @@ import pageObjectPages.LoginPage;
 import pageObjectPages.RegistrationPage;
 import utils.ConfigReader;
 
-//@Listeners({TestListener.class})
+@Listeners({TestListener.class})
 public class LoginTest extends BaseClass {
 
 	RegistrationPage regPage;

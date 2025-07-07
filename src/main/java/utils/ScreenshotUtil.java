@@ -9,10 +9,8 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class ScreenshotUtil {
-	public static String takeScreenShot(WebDriver driver, String testname) {
+	public static String takeScreenShot(WebDriver driver,String path) {
 		// String fileName = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
-		String path = System.getProperty("user.dir") + "/screenshots/" + testname + "_" + System.currentTimeMillis()
-				+ ".png";
 
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
@@ -23,8 +21,7 @@ public class ScreenshotUtil {
 		}
 
 		return path;
-		
-		
+
 	}
-	
+
 }
