@@ -14,7 +14,7 @@
 
 		<RollingFile name="File"
 			fileName="${basePath}/automation.log"
-			filePattern="${basePath}/automation-%d{yyyy-MM-dd_HH-mm}.log">
+			filePattern="${basePath}/automation-%d{yyyy-MM-dd_HH}.log">
 
 			<PatternLayout
 				pattern="%d{HH:mm:ss} [%t] %-5level %logger{36} - %msg%n" />

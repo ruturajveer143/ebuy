@@ -1,0 +1,34 @@
+12:00:15 [main] INFO  tests.AddressTest - Opening Chrome Browser...!
+12:00:15 [main] INFO  tests.AddressTest - Maximize Window...!
+12:00:20 [main] INFO  tests.AddressTest - Opening URL: http://www.automationpractice.pl/
+12:00:20 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 08.07.2025 12:00:20 pm
+12:00:21 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+12:00:21 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj555@gmail.com
+12:00:22 [main] ERROR listeners.TestListener - setAddress Failed to Captured Screen Shot...!
+12:00:22 [main] INFO  tests.AddressTest - Browser Closed...!
+12:00:22 [main] INFO  listeners.TestListener - Default test TEST FINISHED AT: 08.07.2025 12:00:22 pm
+12:00:22 [main] INFO  listeners.TestListener - Default test TEST DURATION: 00:00:02:132
+12:03:37 [main] INFO  tests.AddressTest - Opening Chrome Browser...!
+12:03:38 [main] INFO  tests.AddressTest - Maximize Window...!
+12:03:43 [main] INFO  tests.AddressTest - Opening URL: http://www.automationpractice.pl/
+12:03:43 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 08.07.2025_12_03_43_pm
+12:03:44 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+12:03:44 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj555@gmail.com
+12:03:45 [main] ERROR listeners.TestListener - setAddress TEST CASE FAILED: StaleElementReferenceException
+12:03:45 [main] INFO  listeners.TestListener - setAddress Captured Screen Shot URL: C:\Users\rutur\eclipse-workspace\ebuy/screenshots/08.07.2025_12_03_45_pm.png
+12:03:45 [main] INFO  tests.AddressTest - Browser Closed...!
+12:03:45 [main] INFO  listeners.TestListener - Default test TEST FINISHED AT: 08.07.2025_12_03_45_pm
+12:03:45 [main] INFO  listeners.TestListener - Default test TEST DURATION: 00:00:02:575
+12:05:27 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+12:05:27 [main] INFO  tests.LoginTest - Maximize Window...!
+12:05:34 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+12:05:34 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 08.07.2025_12.05.34.pm
+12:05:35 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj555@gmail.com
+12:05:35 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+12:05:35 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+12:05:36 [main] INFO  pageObjectPages.LoginPage - Checking title is present...!
+12:05:41 [main] ERROR listeners.TestListener - login TEST CASE FAILED: NoSuchElementException
+12:05:41 [main] INFO  listeners.TestListener - login Captured Screen Shot URL: C:\Users\rutur\eclipse-workspace\ebuy/screenshots/08.07.2025_12.05.41.pm.png
+12:05:42 [main] INFO  tests.LoginTest - Browser Closed...!
+12:05:42 [main] INFO  listeners.TestListener - Default test TEST FINISHED AT: 08.07.2025_12.05.42.pm
+12:05:42 [main] INFO  listeners.TestListener - Default test TEST DURATION: 00:00:07:849

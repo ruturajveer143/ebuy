@@ -14,39 +14,52 @@ import pageObjectPages.LoginPage;
 import pageObjectPages.RegistrationPage;
 import utils.ConfigReader;
 
-@Listeners({TestListener.class})
+@Listeners({ TestListener.class })
 public class LoginTest extends BaseClass {
 
 	RegistrationPage regPage;
 	LoginPage login;
+	public static Logger log;
 
 	@BeforeMethod
 	void launchApp() {
 		setUp(null);
 		regPage = new RegistrationPage(driver);
 		login = new LoginPage(driver);
-		log = (Logger) LogManager.getLogger(this.getClass());
+
 	}
 
 	@Test
 	void login() throws InterruptedException {
+		log = (Logger) LogManager.getLogger(this.getClass());
 		regPage.clickOnSignBtn();
 
 		login.sendEmail(ConfigReader.getKey("username"));
-		log.info("Enterd Gmail...!");
+
 		login.sendPass(ConfigReader.getKey("password"));
-		log.info("Enterd Password...!");
+
 		login.clickLogin();
-		log.info("Clicked On Login Button...!");
-		Thread.sleep(2000);
-		
-		Assert.assertEquals("Rohit Patil", login.title());
-		log.info("Title Verified...!");
+
+		String expectedTitle = "Rohit Patil";
+
+		String actualTitle = login.getTitleText();
+
+		log.info("Title - Expected: " + expectedTitle + ", Actual: " + actualTitle);
+		try {
+			Assert.assertEquals(actualTitle, expectedTitle);
+			log.info("Title matched...!");
+
+		} catch (AssertionError e) {
+			log.error("Title mismatch...!");
+			throw e;
+		}
+
 	}
-	
+
 	@AfterMethod
-    public void closeApp() {
-        tearDown();
-    }
+	public void closeApp() {
+
+		tearDown();
+	}
 
 }

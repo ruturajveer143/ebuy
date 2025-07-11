@@ -1,0 +1,79 @@
+07:14:28 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:14:28 [main] INFO  tests.LoginTest - Maximize Window...!
+07:14:34 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:14:35 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:14:35 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:14:35 [main] INFO  pageObjectPages.LoginPage - Entering Password...!
+07:14:35 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:14:36 [main] INFO  pageObjectPages.LoginPage - Get the Title: 
+07:14:46 [main] INFO  tests.LoginTest - Browser Closed...!
+
+07:24:17 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:24:17 [main] INFO  tests.LoginTest - Maximize Window...!
+07:24:22 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:24:23 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:24:23 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:24:23 [main] INFO  pageObjectPages.LoginPage - Entering Password...!
+07:24:23 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:24:24 [main] INFO  tests.LoginTest - Verifying title...
+07:24:24 [main] INFO  pageObjectPages.LoginPage - Get the Title: 
+07:24:30 [main] INFO  tests.LoginTest - Browser Closed...!
+
+07:35:44 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:35:44 [main] INFO  tests.LoginTest - Maximize Window...!
+07:35:50 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:35:51 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:35:51 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:35:51 [main] INFO  pageObjectPages.LoginPage - Entering Password: Pass@12345
+07:35:51 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:35:52 [main] INFO  pageObjectPages.LoginPage - Verifying title...
+07:35:57 [main] INFO  tests.LoginTest - Browser Closed...!
+
+07:38:30 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:38:30 [main] INFO  tests.LoginTest - Maximize Window...!
+07:38:35 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:38:36 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:38:36 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:38:37 [main] INFO  pageObjectPages.LoginPage - Entering Password: Pass@12345
+07:38:37 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:38:37 [main] INFO  pageObjectPages.LoginPage - Verifying title...
+07:38:43 [main] INFO  tests.LoginTest - Browser Closed...!
+
+07:47:42 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:47:42 [main] INFO  tests.LoginTest - Maximize Window...!
+07:47:48 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:47:49 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:47:49 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:47:49 [main] INFO  pageObjectPages.LoginPage - Entering Password: Pass@12345
+07:47:49 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:47:49 [main] INFO  pageObjectPages.LoginPage - Checking if title element is present...
+07:48:00 [main] ERROR pageObjectPages.LoginPage - Title element not found. Possibly login failed.
+07:48:00 [main] ERROR tests.LoginTest - Title not found. Login might have failed.
+07:48:00 [main] INFO  tests.LoginTest - Browser Closed...!
+
+07:49:50 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:49:50 [main] INFO  tests.LoginTest - Maximize Window...!
+07:49:56 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:49:57 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:49:57 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:49:58 [main] INFO  pageObjectPages.LoginPage - Entering Password: Pass@1234
+07:49:58 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:49:59 [main] INFO  pageObjectPages.LoginPage - Checking if title element is present...
+07:49:59 [main] INFO  pageObjectPages.LoginPage - Title : Rohit Patil
+07:49:59 [main] INFO  tests.LoginTest - Title matched
+07:49:59 [main] INFO  tests.LoginTest - Browser Closed...!
+
+07:55:39 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+07:55:39 [main] INFO  tests.LoginTest - Maximize Window...!
+07:55:46 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+07:55:46 [main] INFO  tests.LoginTest -  Login test started at: 08.07.2025 07:55:46 am
+07:55:47 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+07:55:47 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+07:55:47 [main] INFO  pageObjectPages.LoginPage - Entering Password: Pass@1234
+07:55:47 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+07:55:47 [main] INFO  pageObjectPages.LoginPage - Checking if title element is present...
+07:55:49 [main] INFO  pageObjectPages.LoginPage - Title : Rohit Patil
+07:55:49 [main] INFO  tests.LoginTest - Title matched
+07:55:49 [main] INFO  tests.LoginTest - Login test ended at: 08.07.2025 07:55:49 am
+07:55:49 [main] INFO  tests.LoginTest - ⏱️ Total test duration: 00:00:03:040
+07:55:49 [main] INFO  tests.LoginTest - Browser Closed...!

@@ -1,0 +1,42 @@
+08:58:12 [main] INFO  tests.AddressTest - Opening Chrome Browser...!
+08:58:12 [main] INFO  tests.AddressTest - Maximize Window...!
+08:58:18 [main] INFO  tests.AddressTest - Opening URL: http://www.automationpractice.pl/
+08:58:18 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 11.07.2025_08.58.18.am
+08:58:20 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+08:58:20 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+08:58:20 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+08:58:27 [main] ERROR listeners.TestListener - setAddress TEST CASE FAILED: NoSuchElementException
+08:58:27 [main] INFO  listeners.TestListener - setAddress Captured Screen Shot URL: C:\Users\rutur\eclipse-workspace\ebuy/screenshots/11.07.2025_08.58.27.am.png
+08:58:27 [main] INFO  tests.AddressTest - Browser Closed...!
+08:58:29 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+08:58:29 [main] INFO  tests.LoginTest - Maximize Window...!
+08:58:36 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+08:58:36 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 11.07.2025_08.58.36.am
+08:58:37 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+08:58:37 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+08:58:37 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+08:58:38 [main] INFO  pageObjectPages.LoginPage - Checking title is present!
+08:58:38 [main] INFO  tests.LoginTest - Title - Expected: Rohit Patil, Actual: Rohit Patil
+08:58:38 [main] INFO  tests.LoginTest - Title matched...!
+08:58:38 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE PASSED
+08:58:39 [main] INFO  tests.LoginTest - Browser Closed...!
+08:58:41 [main] INFO  tests.RegistrationTest - Opening Chrome Browser...!
+08:58:41 [main] INFO  tests.RegistrationTest - Maximize Window...!
+08:58:46 [main] INFO  tests.RegistrationTest - Opening URL: http://www.automationpractice.pl/
+08:58:46 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 11.07.2025_08.58.46.am
+08:58:46 [main] ERROR listeners.TestListener - validSignupTest TEST CASE FAILED: NullPointerException
+08:58:46 [main] INFO  listeners.TestListener - validSignupTest Captured Screen Shot URL: C:\Users\rutur\eclipse-workspace\ebuy/screenshots/11.07.2025_08.58.46.am.png
+08:58:46 [main] WARN  tests.RegistrationTest - Driver Closed...!
+08:58:47 [main] INFO  tests.RegistrationTest - Browser Closed...!
+08:58:48 [main] INFO  tests.SignupTest - Opening Chrome Browser...!
+08:58:48 [main] INFO  tests.SignupTest - Maximize Window...!
+08:58:53 [main] INFO  tests.SignupTest - Opening URL: http://www.automationpractice.pl/
+08:58:53 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 11.07.2025_08.58.53.am
+08:58:54 [main] INFO  tests.SignupTest - Clicked on Signin Button...!
+08:58:54 [main] INFO  tests.SignupTest - Enterd Email...!
+08:58:54 [main] INFO  tests.SignupTest - Clicked on Submit Button...!
+08:59:00 [main] ERROR listeners.TestListener - validSignupTest TEST CASE FAILED: NoSuchElementException
+08:59:00 [main] INFO  listeners.TestListener - validSignupTest Captured Screen Shot URL: C:\Users\rutur\eclipse-workspace\ebuy/screenshots/11.07.2025_08.58.59.am.png
+08:59:00 [main] INFO  tests.SignupTest - Browser Closed...!
+08:59:00 [main] INFO  listeners.TestListener - Surefire test TEST FINISHED AT: 11.07.2025_08.59.00.am
+08:59:00 [main] INFO  listeners.TestListener - Surefire test TEST DURATION: 00:00:06:655

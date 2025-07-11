@@ -1,0 +1,61 @@
+23:15:13 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:15:13 [main] INFO  tests.LoginTest - Opening Browser...!
+23:15:13 [main] INFO  tests.LoginTest - Window Maximize...!
+23:15:20 [main] INFO  tests.LoginTest - Opening URL...!http://www.automationpractice.pl/
+23:15:22 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+23:15:22 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+23:15:22 [main] INFO  pageObjectPages.LoginPage - Entering Password...!
+23:15:22 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+23:15:25 [main] INFO  pageObjectPages.LoginPage - Get the Title: 
+23:15:35 [main] INFO  tests.LoginTest - Browser Closed...!
+
+23:24:09 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:24:10 [main] INFO  tests.LoginTest - Window Maximize...!
+23:24:23 [main] INFO  tests.LoginTest - Opening URL...!http://www.automationpractice.pl/
+23:24:24 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+23:24:24 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+23:24:25 [main] INFO  pageObjectPages.LoginPage - Entering Password...!
+23:24:25 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+23:24:25 [main] INFO  pageObjectPages.LoginPage - Get the Title: 
+23:24:36 [main] INFO  tests.LoginTest - Browser Closed...!
+
+23:29:19 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:29:19 [main] INFO  tests.LoginTest - Window Maximize...!
+23:29:28 [main] INFO  tests.LoginTest - Opening URL...!http://www.automationpractice.pl/
+23:29:30 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+23:29:30 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+23:29:30 [main] INFO  pageObjectPages.LoginPage - Entering Password...!
+23:29:30 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+23:29:31 [main] INFO  pageObjectPages.LoginPage - Get the Title: 
+23:29:42 [main] INFO  tests.LoginTest - Browser Closed...!
+23:33:16 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:33:16 [main] INFO  tests.LoginTest - Maximize Window...!
+23:34:25 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+23:34:25 [main] INFO  tests.LoginTest - Browser Closed...!
+23:34:25 [main] INFO  tests.LoginTest -  
+23:34:48 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:34:48 [main] INFO  tests.LoginTest - Maximize Window...!
+23:34:52 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+23:35:02 [main] INFO  pageObjectPages.LoginPage - Login Page Test Start...!
+23:35:02 [main] INFO  pageObjectPages.LoginPage - Entering Email: vruturaj655@gmail.com
+23:35:02 [main] INFO  pageObjectPages.LoginPage - Entering Password...!
+23:35:02 [main] INFO  pageObjectPages.LoginPage - Clicking on Login Button...!
+23:35:04 [main] INFO  pageObjectPages.LoginPage - Get the Title: 
+23:35:14 [main] INFO  tests.LoginTest - Browser Closed...!
+23:35:14 [main] INFO  tests.LoginTest -  
+23:38:42 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:38:42 [main] INFO  tests.LoginTest - Maximize Window...!
+23:38:52 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+23:38:53 [main] INFO  tests.LoginTest - Browser Closed...!
+23:39:00 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:39:00 [main] INFO  tests.LoginTest - Maximize Window...!
+23:39:44 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+23:39:45 [main] INFO  tests.LoginTest - Browser Closed...!
+23:39:51 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:39:51 [main] INFO  tests.LoginTest - Maximize Window...!
+23:42:08 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+23:42:08 [main] INFO  tests.LoginTest - Browser Closed...!
+23:42:24 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+23:42:24 [main] INFO  tests.LoginTest - Maximize Window...!
+23:43:39 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+23:43:40 [main] INFO  tests.LoginTest - Browser Closed...!

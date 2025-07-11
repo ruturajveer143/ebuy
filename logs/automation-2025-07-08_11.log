@@ -1,0 +1,22 @@
+11:56:56 [main] INFO  tests.AddressTest - Opening Chrome Browser...!
+11:56:56 [main] INFO  tests.AddressTest - Maximize Window...!
+11:57:01 [main] INFO  tests.AddressTest - Opening URL: http://www.automationpractice.pl/
+11:57:01 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 08.07.2025 11:57:01 am
+11:57:02 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+11:57:03 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj555@gmail.com
+11:57:03 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+11:57:03 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+11:57:08 [main] ERROR listeners.TestListener - setAddress Failed to Captured Screen Shot...!
+11:57:09 [main] INFO  tests.AddressTest - Browser Closed...!
+11:57:09 [main] INFO  listeners.TestListener - Default test TEST FINISHED AT: 08.07.2025 11:57:09 am
+11:57:09 [main] INFO  listeners.TestListener - Default test TEST DURATION: 00:00:07:482
+11:59:02 [main] INFO  tests.AddressTest - Opening Chrome Browser...!
+11:59:02 [main] INFO  tests.AddressTest - Maximize Window...!
+11:59:08 [main] INFO  tests.AddressTest - Opening URL: http://www.automationpractice.pl/
+11:59:08 [main] INFO  listeners.TestListener - class org.testng.internal.TestResult TEST CASE STARTED: 08.07.2025 11:59:08 am
+11:59:09 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+11:59:09 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj555@gmail.com
+11:59:10 [main] ERROR listeners.TestListener - setAddress Failed to Captured Screen Shot...!
+11:59:10 [main] INFO  tests.AddressTest - Browser Closed...!
+11:59:10 [main] INFO  listeners.TestListener - Default test TEST FINISHED AT: 08.07.2025 11:59:10 am
+11:59:10 [main] INFO  listeners.TestListener - Default test TEST DURATION: 00:00:02:283

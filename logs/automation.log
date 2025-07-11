@@ -1,3 +1,47 @@
-19:58:22 [main] INFO  tests.LoginTest - Enterd Gmail...!
-19:58:22 [main] INFO  tests.LoginTest - Enterd Password...!
-19:58:23 [main] INFO  tests.LoginTest - Clicked On Login Button...!
+09:16:12 [main] INFO  tests.AddressTest - Opening Chrome Browser...!
+09:16:12 [main] INFO  tests.AddressTest - Maximize Window...!
+09:16:14 [main] INFO  tests.AddressTest - Opening URL: http://www.automationpractice.pl/
+09:16:20 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+09:16:20 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+09:16:20 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+09:16:27 [main] INFO  tests.AddressTest - Browser Closed...!
+09:19:14 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+09:19:14 [main] INFO  tests.LoginTest - Maximize Window...!
+09:19:19 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+09:19:20 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+09:19:21 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+09:19:21 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+09:19:22 [main] INFO  pageObjectPages.LoginPage - Checking title is present!
+09:19:22 [main] INFO  tests.LoginTest - Title - Expected: Rohit Patil, Actual: Rohit Patil
+09:19:22 [main] INFO  tests.LoginTest - Title matched...!
+09:19:22 [main] INFO  tests.LoginTest - Browser Closed...!
+09:30:02 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+09:30:02 [main] INFO  tests.LoginTest - Maximize Window...!
+09:30:08 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+09:30:09 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+09:30:09 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+09:30:09 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+09:30:11 [main] INFO  pageObjectPages.LoginPage - Checking title is present!
+09:30:11 [main] INFO  tests.LoginTest - Title - Expected: Rohit Patil, Actual: Rohit Patil
+09:30:11 [main] INFO  tests.LoginTest - Title matched...!
+09:30:11 [main] INFO  tests.LoginTest - Browser Closed...!
+09:34:35 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+09:34:35 [main] INFO  tests.LoginTest - Maximize Window...!
+09:34:41 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+09:34:42 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+09:34:42 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+09:34:42 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+09:34:42 [main] INFO  pageObjectPages.LoginPage - Checking title is present!
+09:34:44 [main] INFO  tests.LoginTest - Title - Expected: Rohit Patil, Actual: Rohit Patil
+09:34:44 [main] INFO  tests.LoginTest - Title matched...!
+09:34:44 [main] INFO  tests.LoginTest - Browser Closed...!
+09:42:47 [main] INFO  tests.LoginTest - Opening Chrome Browser...!
+09:42:47 [main] INFO  tests.LoginTest - Maximize Window...!
+09:42:52 [main] INFO  tests.LoginTest - Opening URL: http://www.automationpractice.pl/
+09:42:53 [main] INFO  pageObjectPages.LoginPage - Entered Email: vruturaj655@gmail.com
+09:42:54 [main] INFO  pageObjectPages.LoginPage - Entered Password: Pass@1234
+09:42:54 [main] INFO  pageObjectPages.LoginPage - Clicked on Login Button...!
+09:42:54 [main] INFO  pageObjectPages.LoginPage - Checking title is present!
+09:42:55 [main] INFO  tests.LoginTest - Title - Expected: Rohit Patil, Actual: Rohit Patil
+09:42:55 [main] INFO  tests.LoginTest - Title matched...!
+09:42:55 [main] INFO  tests.LoginTest - Browser Closed...!

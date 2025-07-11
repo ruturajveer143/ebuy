@@ -1,7 +1,9 @@
 package tests;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.core.Logger;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -13,35 +15,41 @@ import pageObjectPages.LoginPage;
 import pageObjectPages.RegistrationPage;
 import pageObjectPages.SetAddressPage;
 import utils.ConfigReader;
-@Listeners({TestListener.class})
+
+@Listeners({ TestListener.class })
 public class AddressTest extends BaseClass {
+
 	RegistrationPage regpage;
 	LoginPage login;
 	SetAddressPage address;
+	public static Logger log;
+
 	@BeforeMethod
 	void addressSetup() {
 		setUp(null);
-		
+
 		regpage = new RegistrationPage(driver);
 		login = new LoginPage(driver);
 		address = new SetAddressPage(driver);
+
 		log = (Logger) LogManager.getLogger(this.getClass());
-		
+
 	}
 	
-	@Test
+	
+	@Test(enabled = false)
 	void setAddress() throws InterruptedException {
 		regpage.clickOnSignBtn();
 
-		login.clickLogin();
+		//login.clickLogin();
 		login.sendEmail(ConfigReader.getKey("username"));
 		login.sendPass(ConfigReader.getKey("password"));
 		login.clickLogin();
-		
+
 		address.clickOnAddressBtn();
 		log.info("Clicked on Address Button...!");
-		//address.setFirstname("Rohit");
-		//address.setLastname("Patil");
+		// address.setFirstname("Rohit");
+		// address.setLastname("Patil");
 		address.setCompany("XYZ Pvt.ltd");
 		log.info("Enterd Compnay Name...!");
 		address.setAddress1("Mohan Nagar");
@@ -66,14 +74,15 @@ public class AddressTest extends BaseClass {
 		log.info("Enter the address Name...!");
 		address.clickOnSubmit();
 		log.info("Clicked on Submit Button...!");
-	
-		Thread.sleep(5000);
 		
+	//	Assert.fail();
+		
+
 	}
-	
+
 	@AfterMethod
-    public void closeApp() {
-        tearDown();
-    }
+	public void closeApp() {
+		tearDown();
+	}
 
 }

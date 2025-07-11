@@ -1,0 +1,5 @@
+tests\SignupTest.class
+tests\AddressTest.class
+tests\RegistrationTest.class
+tests\LoginTest.class
+listeners\TestListener.class

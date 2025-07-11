@@ -1,0 +1,8 @@
+pageObjectPages\LoginPage.class
+base\BaseClass.class
+pageObjectPages\RegistrationPage.class
+pageObjectPages\SetAddressPage.class
+utils\ExtentReportManager.class
+utils\ConfigReader.class
+utils\ScreenshotUtil.class
+pageObjectPages\PersonalInfoForm.class
